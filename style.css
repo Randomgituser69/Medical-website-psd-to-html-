@@ -79,3 +79,30 @@ textarea:not([rows]) {
 * {
   font-family: 'Basic Sans', sans-serif;
 }
+body {
+  background-image: url("Background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1rem;
+  color: #fff;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--cyan);
+} 
+a {
+  text-decoration: none;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 7px;
+  list-style: none;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
